@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <a href="/">Retour</a>
+
+    <h1>Ajouter une todo</h1>
+    <form action="/ajouter" method="POST">
+        <label for="Nom">Nom</label>
+        <input type="text" name="Nom" id="Nom">
+
+        <label for="Deadline">Deadline</label>
+        <input type="date" name="Deadline" id="Deadline">
+
+        <label for="priorite">priorité</label>
+        <select name="priorite" id="priorite">
+            <option value="1">Haute</option>
+            <option value="2">Moyenne</option>
+            <option value="3">Basse</option>
+        </select>
+        <input type="submit" value="Enregistrer">
+
+    </form>
+
+
+
+</body>
+
+</html>
